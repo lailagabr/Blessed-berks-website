@@ -1,0 +1,46 @@
+.content{
+    padding-top: 70px;
+}
+
+
+.fav {
+    position: relative;
+    left: 200px;
+    bottom: 380px;
+    color: red;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    opacity: 80%;
+    background-color: transparent;
+    font-size: x-large;
+}
+
+.fav:hover {
+    color: white;
+    background-color: red;
+}
+
+
+
+.details {
+    color: white;
+    background-color: #33434b;
+    width: 140px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    opacity: 80%;
+    font-size: 20;
+    font-style: italic;
+    position: relative;
+    right: 100;
+    top: 5px;
+}
+
+.details:hover {
+    background-color: #8da1a7;
+    color: #2A3D45;
+}
+

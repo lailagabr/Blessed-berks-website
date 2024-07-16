@@ -1,0 +1,198 @@
+body {
+    background-color: #2A3D45;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #0c0c0b;
+    font-family: "Noto Serif", serif;
+}
+
+.box-form {
+    margin:  auto;
+    width: 80%;
+    background: #2A3D45;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b6f85;
+    
+    animation-name: form;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes form {
+
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.5;
+    }
+
+    40% {
+        opacity: 0.7;
+        margin-top: 5%;
+    }
+
+    50% {
+        opacity: 1;
+        margin-bottom: 2%;
+
+    }
+
+}
+
+@media (max-width: 980px) {
+    .box-form {
+        flex-flow: wrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.box-form div { 
+    height: auto;
+    
+}
+
+.box-form .left {
+    color: #003031;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #f9e0ce;
+
+}
+
+.box-form .left .overlay h1 {
+    font-size: 10vmax;
+    line-height: 0;
+}
+
+
+.box-form .right {
+    padding: 70px;
+    overflow: hidden;
+}
+
+@media (max-width: 980px) {
+    .box-form .right {
+        width: 50%;
+        height: 50vh;
+      
+    
+    }
+}
+
+.box-form .right h5 {
+
+    font-size: 6vmax;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #2A3D45;
+}
+
+.box-form .left input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+    background: transparent;
+}
+
+#signenter {
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background-color: #2A3D45;
+    color: #f9e0ce;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-family: "Noto Serif", serif;
+    width: 100%;
+    margin: 10px;
+}
+
+
+#headder {
+    color: #D08770;
+    font-size: 6vmax;
+    padding: 10px;
+}
+
+.right {
+    background-image: url(../images/pet3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+}
+
+.left {
+    width: 65%;
+}
+
+.date {
+    color: #808080;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    color: #555;
+}
+
+.icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+.input-box {
+    border-radius: 5px;
+    /* display: flex; */
+    width: 100%;
+    align-items: center;
+}
+
+
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+
+label{
+    color: #555;
+    padding-top: 20px;
+}

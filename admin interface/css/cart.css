@@ -1,0 +1,203 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ece9e0;
+}
+
+
+
+/* start navbar */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 130px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 18px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    color: #d08770;
+}
+
+.active {
+    height: 20px;
+
+}
+
+
+.logo h2 {
+    color: #d08770;
+    font-size: 44px;
+    margin-left: 40px;
+
+}
+
+
+.navbar {
+    justify-content: space-evenly;
+}
+
+
+.navbar .btn:hover {
+    background-color: #f8f9fa;
+    color: rgb(235, 160, 160);
+    
+    border-radius: 8px;
+
+}
+
+ul .btn {
+    color: #FEE8D1;
+    border-color: #FEE8D1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 11px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.nicon a {
+    padding: 0 !important;
+}
+
+button.btn {
+    margin: 0;
+}
+
+/* end navbar */
+
+
+
+
+/* cart  */
+
+.side-nav {
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(235, 160, 160);
+    position: absolute;
+    right: 0;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+
+    color: #ece9e0;
+    padding: 20px;
+    transition: all .4s;
+    background-color: #6c7d85;
+
+}
+.side-nav h2{
+text-align: center;
+color: #ece9e0;
+}
+
+.side-nav .cart {
+    height: 90vh;
+    width: 90%;
+}
+
+.first {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-items: auto;
+}
+
+.card{
+/* all cards  */
+   padding: 20px;
+   margin: auto;
+   overflow: auto;
+   height: 70vh;
+}
+
+.cbtn{
+    overflow: hidden;
+    height: fit-content;
+    width: 90%;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.product{
+    background-color: #ece9e0;
+    border-radius: 10px;
+    margin-bottom: 10PX ;
+    padding: 20px;
+}
+
+.card img {
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.side-nav  h5{ 
+    color: rgb(235, 160, 160) !important;
+}
+.side-nav a , i { 
+    color: rgb(235, 160, 160) !important;
+}
+
+/* .side-nav  a:hover {
+    background-color: #f8f9fa;
+    color: rgb(235, 160, 160);
+    padding: 5px;
+    border-radius: 8px;
+} */
+
+
+
+
+
+.settings {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+}
+
+.main {
+    width: 100%;
+    right: 0;
+}
+
+.close-nav {
+    width: 80%;
+    min-height: 100vh;
+    /* w lw elcontent zadt hatzeed m3ak  */
+    position: absolute;
+    right: 20%;
+}
+
+/* .nav-link {
+    color: rgb(235, 160, 160);
+} */
